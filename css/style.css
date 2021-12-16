@@ -1,0 +1,238 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+.container{
+    max-width: 1060px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+.site-header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.site-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.site-nav-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.site-nav-item:not(:last-child){
+    margin-right: 30px;
+}
+.site-nav-link{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 15px;
+    color: #666;
+}
+.site-nav-link:hover{
+     border-bottom: 3px solid #333;
+}
+
+.help-link{
+    margin: 0;
+    padding: 0;
+    margin-left: 40px;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 15px;
+    color: #666;
+    border-bottom: 1px solid #333;
+    padding: 6px;
+    
+}
+/* SITE-MAIN */
+.section-header{
+    margin-top: 86px;
+    border-bottom: 2px solid #ddd;
+}
+.section-header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.section-header-img{
+    position: relative;
+    left: 230px;
+    
+}
+
+.content-title{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 50px;
+    color: #000;
+}
+
+.content-text{
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #777;
+    padding-left: 40px;
+    border-left: 3px solid #888;
+    margin-bottom: 50px;
+
+
+}
+.main-link{
+    text-decoration: none;
+    padding: 12px 39px;
+    background-color: #EA625C;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+   
+
+}
+.main-link:hover{
+    background-color: #fff;
+    color: #EA625C;
+    border:2px solid #EA625C;
+}
+.main-link:active{
+    opacity: 0.8;
+}
+.site-main-link{
+    margin-top: 30px;
+}
+/* section-texts */
+
+.section-texts{
+    margin-top: 70px;
+}
+.section-texts-list{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.section-texts-item:not(:last-child){
+    margin-right: 80px;
+}
+.section-texts-title{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #222;
+}
+.section-texts-text{
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #333;
+}
+.section-texts-item span{
+    text-transform: uppercase;
+    color:#EA625C;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+/* section-nike */
+
+.section-nike{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 140px;
+    margin-bottom: 70px;
+
+}
+.nike-content{
+    margin-right: 110px;
+}
+.nike-title{
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    margin-bottom: 30px;
+    color: #000;
+}
+
+.nike-text{
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 24px;
+    padding-left: 40px;
+    border-left: 3px solid #888;
+    line-height: 24px;
+    
+}
+.nike-main-link{
+    position: relative;
+    top: 30px;
+}
+/* SITE-FOOTER */
+
+.site-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 830px;
+    background-image: url(/images/runners\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer-content{
+    width: 500px;
+    position: absolute;
+    right: 260px;
+}
+.footer-title{
+    
+    margin: 0;
+    padding: 0;
+    margin-bottom: 30px;
+    padding-top: 240px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 60px;
+}
+.footer-text{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-left: 40px;
+    border-left: 3px solid #fff;
+}
+.footer-link{
+    position: relative;
+    top: 30px;
+}
